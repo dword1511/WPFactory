@@ -1,0 +1,160 @@
+#lightboxOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: black;
+  opacity: 0.85;
+  display: none;
+}
+
+#lightbox {
+  position: absolute;
+  z-index: 10000;
+  /* Really hard to center an block with absoulute position */
+  width: 1000px;
+  left: 50%;
+  margin-left: -500px;
+  line-height: 0;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  font-weight: normal;
+  border-radius: 8px;
+}
+
+#lightbox img {
+  width: auto;
+  height: auto;
+}
+
+#lightbox img.lb-image {
+  width: 960px;
+  height: 540px;
+}
+
+#lightbox a img {
+  border: none;
+}
+
+.lb-outerContainer {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+}
+
+.lb-outerContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lb-container {
+  width: auto;
+  padding: 10px;
+}
+
+.lb-loader {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+  background: transparent;
+}
+
+.lb-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  background: transparent;
+}
+
+.lb-container > .nav {
+  left: 0;
+}
+
+.lb-nav a {
+  outline: none;
+}
+
+.lb-prev, .lb-next {
+  width: 49%;
+  height: 100%;
+  background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+  /* Trick IE into showing hover */
+  display: block;
+}
+
+.lb-prev {
+  left: 0;
+  float: left;
+}
+
+.lb-next {
+  right: 0;
+  float: right;
+}
+
+.lb-prev:hover {
+  background: url(../lightbox-images/prev.png) left 48% no-repeat;
+}
+
+.lb-next:hover {
+  background: url(../lightbox-images/next.png) right 48% no-repeat;
+}
+
+.lb-dataContainer {
+  margin: 0 auto;
+  padding-top: 5px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.lb-dataContainer, .lb-details {
+  background: #006990;
+}
+
+.lb-dataContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lb-data {
+  padding: 0 10px;
+  color: #c0c8c8;
+}
+
+.lb-data .lb-details {
+  width: 90%;
+  float: left;
+  text-align: center;
+}
+
+.lb-data {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.lb-data .lb-number {
+  display: block;
+  clear: left;
+  padding-top: 12px;
+  font-size: 20px;
+}
+
+.lb-data .lb-close {
+  width: 64px;
+  float: right;
+  padding-bottom: 8px;
+  outline: none;
+}
+
+.lb-data .lb-close:hover {
+  cursor: pointer;
+}
