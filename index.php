@@ -1,3 +1,4 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
 <head>
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
@@ -72,27 +73,27 @@ if(($handle = fopen("catalog.csv", "r")) !== FALSE) {
       <tbody>
         <tr>
           <th title="yyyy-mm-dd in UTC+8">Date:</th>
-          <td>'.$date.'</td>
+          <td class="left">'.$date.'</td>
           <th title="last 2 letters are country code">Place:</th>
-          <td>'.$place.'</td>
+          <td class="right">'.$place.'</td>
         </tr>
         <tr>
-          <th title="make & model">Camera:</th>
-          <td>'.$cam.'</td>
+          <th title="make &amp; model">Camera:</th>
+          <td class="left">'.$cam.'</td>
           <th title="width x height, pixels">Size:</th>
-          <td>'.$res.'</td>
+          <td class="right">'.$res.'</td>
         </tr>
         <tr>
           <th>F number:</th>
-          <td>'.$fnum.'</td>
+          <td class="left">'.$fnum.'</td>
           <th title="exposure time">Shutter:</th>
-          <td>'.$shut.'</td>
+          <td class="right">'.$shut.'</td>
         </tr>
         <tr>
           <th>ISO:</th>
-          <td>'.$iso.'</td>
+          <td class="left">'.$iso.'</td>
           <th title="in full frame (35mm) unless otherwise specified">Focal length:</th>
-          <td>'.$f35mm.'</td>
+          <td class="right">'.$f35mm.'</td>
         </tr>
       </tbody>
     </table>

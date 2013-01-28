@@ -21,6 +21,7 @@ p.dl {
   text-align: center;
   vertical-align: middle;
   font-size: 18px;
+  margin: 12px;
 }
 
 img {
@@ -44,7 +45,8 @@ table {
 table.shrink {
   width: auto;
   margin: 0;
-  font-size: 11px;
+  font-size: 12px;
+  vertical-align: middle;
 }
 
 table.emptybg {
@@ -53,19 +55,29 @@ table.emptybg {
 
 tr.even {
   background: #2a2a2a;
-  font-size: 11px;
+  font-size: 12px;
   margin: 0;
+  vertical-align: top;
 }
 
 tr.odd {
   background: #363636;
-  font-size: 11px;
+  font-size: 12px;
   margin: 0;
+  vertical-align: top;
 }
 
 th, td {
   padding: 5px 10px;
   border: 1px solid #1f1f1f;
+}
+
+th {
+  width: 100px;
+}
+
+td.left {
+  width: 140px;
 }
 
 td.shrink {
