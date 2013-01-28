@@ -4,6 +4,7 @@
   <title>Wallpapers</title>
   <link rel="stylesheet" type="text/css" media="screen" href="css/lightbox-2.5.1.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="css/decoder-lite.css" />
+  <link rel="alternate" type="application/rss+xml" title="My RSS feed" href="rss.php" />
   <script src="js/jquery-min-1.7.2.js"></script>
   <script src="js/lightbox-2.5.1.js"></script>
   <script src="js/smoothscroll.js"></script>
