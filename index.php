@@ -76,11 +76,11 @@ if(($handle = fopen("catalog.csv", "r")) !== FALSE) {
           <th title="yyyy-mm-dd in UTC+8">Date:</th>
           <td class="left">'.$date.'</td>
           <th title="last 2 letters are country code">Place:</th>
-          <td class="right">'.$place.'</td>
+          <td class="right">'.htmlentities($place).'</td>
         </tr>
         <tr>
           <th title="make &amp; model">Camera:</th>
-          <td class="left">'.$cam.'</td>
+          <td class="left">'.htmlentities($cam).'</td>
           <th title="width x height, pixels">Size:</th>
           <td class="right">'.$res.'</td>
         </tr>

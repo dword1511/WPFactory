@@ -48,8 +48,8 @@ if(($handle = fopen("catalog.csv", "r")) !== FALSE) {
         <img src="http://dword1511.info/dword/wallpapers/output/'.$line[0].'-thumb.jpg" alt="Thumbnail of '.$line[0].'.jpg" />
         <ul>
           <li><strong>Date: </strong>'.$line[1].'</li>
-          <li><strong>Place: </strong>'.$line[2].'</li>
-          <li><strong>Camera: </strong>'.$line[3].'</li>
+          <li><strong>Place: </strong>'.htmlentities($line[2]).'</li>
+          <li><strong>Camera: </strong>'.htmlentities($line[3]).'</li>
           <li><strong>Resolution: </strong>'.$line[4].'</li>
           <li><strong>F number: </strong>'.$line[5].'</li>
           <li><strong>Exposure time: </strong>'.$line[6].'</li>
