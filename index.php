@@ -4,7 +4,7 @@
   <title>Wallpapers</title>
   <link rel="stylesheet" type="text/css" media="screen" href="css/lightbox-2.5.1.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="css/decoder-lite.css" />
-  <link rel="alternate" type="application/rss+xml" title="My RSS feed" href="rss.php" />
+  <link rel="alternate" type="application/rss+xml" title="RSS feed" href="rss.php" />
   <script src="js/jquery-min-1.7.2.js"></script>
   <script src="js/lightbox-2.5.1.js"></script>
   <script src="js/smoothscroll.js"></script>
@@ -43,6 +43,7 @@
       <a target="_blank" href="http://blog.dword1511.info/?page_id=2">the about page on my blog</a>.
       <br />
       <a href="#license">License information</a>
+      <a href="rss.php">RSS Feed</a>
     </p>
     <hr />
 
