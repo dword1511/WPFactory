@@ -190,8 +190,10 @@ lightbox = new Lightbox options
       $image = $lightbox.find('.lb-image');
       this.sizeOverlay();
       $('#lightboxOverlay').fadeIn(this.options.fadeDuration);
-      $('.loader').fadeIn('slow');
+      // Sometimes images can be cached, fadeOut will create an absurd effect.
+      // Besides, fadeOut will render .lb-nav, .lb-prev and .lb-next broken.
       $lightbox.find('.lb-image, .lb-nav, .lb-prev, .lb-next, .lb-numbers').hide();
+      $lightbox.find('.lb-loader').fadeIn();
       $lightbox.find('.lb-outerContainer').addClass('animating');
       preloader = new Image;
       preloader.onload = function() {
@@ -247,7 +249,7 @@ lightbox = new Lightbox options
     Lightbox.prototype.showImage = function() {
       var $lightbox;
       $lightbox = $('#lightbox');
-      $lightbox.find('.lb-loader').hide();
+      $lightbox.find('.lb-loader').fadeOut();
       $lightbox.find('.lb-image').fadeIn('slow');
       this.updateNav();
       this.updateDetails();
@@ -260,9 +262,7 @@ lightbox = new Lightbox options
       $lightbox = $('#lightbox');
       $lightbox.find('.lb-nav').show();
       if (this.currentImageIndex > 0) $lightbox.find('.lb-prev').show();
-      if (this.currentImageIndex < this.album.length - 1) {
-        $lightbox.find('.lb-next').show();
-      }
+      if (this.currentImageIndex < this.album.length - 1) $lightbox.find('.lb-next').show();
     };
 
     Lightbox.prototype.updateDetails = function() {
