@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
   <title>Wallpapers</title>
@@ -10,6 +10,7 @@
   <script type="text/javascript" src="js/lightbox-2.5.1.js"></script>
   <script type="text/javascript" src="js/smoothscroll.js"></script>
   <script type="text/javascript" src="js/gaq.js"></script>
+  <script type="text/javascript" src="js/external.js"></script>
 </head>
 
 <body>
@@ -28,7 +29,7 @@
         represent real ones. They are extracted from the EXIF information of the original photos.
       </em><br />
       If you want a copy of the original photos, please contact me with the information at
-      <a target="_blank" href="http://blog.dword1511.info/?page_id=2">the about page on my blog</a>.
+      <a rel="external" href="http://blog.dword1511.info/?page_id=2">the about page on my blog</a>.
       <br />
       <a href="#license">License information</a>
       <a href="rss.php">RSS Feed</a>
@@ -121,14 +122,14 @@ else echo 'Error: Missing catalog.';
       <tbody>
         <tr>
           <td class="shrink">
-            <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
-              <img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png"/>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+              <img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" />
             </a>
           </td>
           <td class="shrink">
-            Copyright &copy; <a target="_blank" href="http://dword1511.info">dword1511.info</a>
+            Copyright &copy; <a rel="external" href="http://dword1511.info">dword1511.info</a>
             <br />
-            This page and the wallpapers are licensed under the <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons BY-NC-SA 3.0 Unported License</a>.
+            This page and the wallpapers are licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons BY-NC-SA 3.0 Unported License</a>.
           </td>
         </tr>
       </tbody>
