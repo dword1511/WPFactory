@@ -5,23 +5,10 @@
   <link rel="stylesheet" type="text/css" media="screen" href="css/lightbox-2.5.1.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="css/decoder-lite.css" />
   <link rel="alternate" type="application/rss+xml" title="RSS feed" href="rss.php" />
-  <script src="js/jquery-min-1.7.2.js"></script>
-  <script src="js/lightbox-2.5.1.js"></script>
-  <script src="js/smoothscroll.js"></script>
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-27323354-2']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script');
-      ga.type = 'text/javascript';
-      ga.async = true;
-      ga.src = 'https://ssl.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
+  <script type="text/javascript" src="js/jquery-min-1.7.2.js"></script>
+  <script type="text/javascript" src="js/lightbox-2.5.1.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/gaq.js"></script>
 </head>
 
 <body>
@@ -74,7 +61,7 @@ if(($handle = fopen("catalog.csv", "r")) !== FALSE) {
       $place = str_replace('|', ',', $place);
 
       echo '
-<tr class="'.$class.'" id="'.$hash.'">
+<tr class="'.$class.'" id="wp_'.$hash.'">
   <td class="thumb">
     <a href="output/'.$hash.'.jpg" rel="lightbox[wallpapers]">
       <img alt="Thumbnail of '.$hash.'.jpg" src="output/'.$hash.'-thumb.jpg" />
@@ -111,7 +98,7 @@ if(($handle = fopen("catalog.csv", "r")) !== FALSE) {
     </table>
     <p class="dl">
       &bull; <a href="getfile.php?u=output/'.$hash.'.jpg">Save</a>
-      &bull; <a href="#'.$hash.'">Link</a>
+      &bull; <a href="#wp_'.$hash.'">Link</a>
     </p>
   </td>
 </tr>

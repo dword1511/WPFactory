@@ -38,10 +38,10 @@ if(($handle = fopen("catalog.csv", "r")) !== FALSE) {
     if($line[0] != NULL) $output .= '
 <item>
   <title>'.$line[1].', '.htmlentities($line[2]).'</title>
-  <link>http://dword1511.info/dword/wallpapers/#'.$line[0].'</link>
+  <link>http://dword1511.info/dword/wallpapers/#wp_'.$line[0].'</link>
   <description>New wallpaper</description>
   <pubDate>'.date("D, d M o H:i:s +0800", strtotime($line[1])).'</pubDate>
-  <guid>http://dword1511.info/dword/wallpapers/#'.$line[0].'</guid>
+  <guid>http://dword1511.info/dword/wallpapers/#wp_'.$line[0].'</guid>
   <content:encoded>
     <![CDATA[
       <p>
@@ -56,7 +56,7 @@ if(($handle = fopen("catalog.csv", "r")) !== FALSE) {
           <li><strong>ISO speed: </strong>'.$line[7].'</li>
           <li><strong>35mm equivalent focal length: </strong>'.$line[8].'</li>
         </ul>
-        <a href="http://dword1511.info/dword/wallpapers/#'.$line[0].'">See details</a>
+        <a href="http://dword1511.info/dword/wallpapers/#wp_'.$line[0].'">See details</a>
       </p>
     ]]>
   </content:encoded>
