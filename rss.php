@@ -23,7 +23,7 @@ if(($handle = fopen("catalog.csv", "r")) !== FALSE) {
   usort($item, 'sort_date');
 
   $output = '<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" 
+<rss version="2.0"
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
   xmlns:atom="http://www.w3.org/2005/Atom"
 >
@@ -35,11 +35,12 @@ if(($handle = fopen("catalog.csv", "r")) !== FALSE) {
     <language>en-us</language>
 ';
   foreach ($item as $line) {
-    $output .= '
+    if($line[0] != NULL) $output .= '
 <item>
   <title>'.$line[1].', '.htmlentities($line[2]).'</title>
   <link>http://dword1511.info/dword/wallpapers/#'.$line[0].'</link>
   <description>New wallpaper</description>
+  <pubDate>'.date("D, d M o H:i:s +0800", strtotime($line[1])).'</pubDate>
   <guid>http://dword1511.info/dword/wallpapers/#'.$line[0].'</guid>
   <content:encoded>
     <![CDATA[
