@@ -249,7 +249,9 @@ lightbox = new Lightbox options
     Lightbox.prototype.showImage = function() {
       var $lightbox;
       $lightbox = $('#lightbox');
-      $lightbox.find('.lb-loader').fadeOut();
+      // GIF does not support full transparency, so this actually has a background color.
+      // Hide it before it is too late.
+      $lightbox.find('.lb-loader').hide();
       $lightbox.find('.lb-image').fadeIn('slow');
       this.updateNav();
       this.updateDetails();
