@@ -67,7 +67,7 @@ if(($handle = fopen("catalog.csv", "r")) !== FALSE) {
 </rss>
 ';
 
-  header("Content-Type: application/rss+xml");
+  header("Content-Type: text/xml");
   echo $output;
 }
 else {
