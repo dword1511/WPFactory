@@ -11,6 +11,7 @@
   <script type="text/javascript" src="js/smoothscroll.js"></script>
   <script type="text/javascript" src="js/gaq.js"></script>
   <script type="text/javascript" src="js/external.js"></script>
+  <script type="text/javascript" src="js/hover.js"></script>
 </head>
 
 <body>
@@ -67,6 +68,7 @@ if(($handle = fopen("catalog.csv", "r")) !== FALSE) {
   <td class="thumb">
     <a href="output/'.$hash.'.jpg" rel="lightbox[wallpapers]">
       <img alt="Thumbnail of '.$hash.'.jpg" src="output/'.$hash.'-thumb.jpg" />
+      <img alt="Click to enlarge" class="hint" src="lightbox-images/mark.png" />
     </a>
   </td>
   <td class="shrink">
