@@ -23,10 +23,10 @@
 
   <div class="content">
     <p>
-      These are wallpapers made by me (@dword1511), mostly from photos taken.<br />
+      These are wallpapers made by me (@dword1511), mostly from photos I took.<br />
       <em>
-        Note: images may have been edited or cropped, and extra lenses may have been applied.
-        Therefore values of F number, shutter speed, ISO speed and focal length may not
+        Note: images may have been edited or cropped, and extra lenses and filters may have been applied.
+        Therefore values for F number, shutter speed, ISO speed and focal length may not
         represent real ones. They are extracted from the EXIF information of the original photos.
       </em><br />
       If you want a copy of the original photos, please contact me with the information at
