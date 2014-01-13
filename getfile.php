@@ -10,8 +10,10 @@ if(!file_exists($file)) {
   echo 'File not found :(';
 }
 else {
-  $fn  = end(explode('/', $file));
-  $ext = end(explode('.', $fn));
+  $path = explode('/', $file);
+  $fn   = end($path);
+  $segs = explode('.', $fn);
+  $ext  = end($segs);
 
   if($ext != 'jpg') {
     echo 'Grab the source code at https://github.com/dword1511/WPFactory/';
