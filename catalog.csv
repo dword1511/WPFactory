@@ -51,7 +51,9 @@ src_md5, date, place, camera_model, resolution, aperture, shutter, iso_speed, 35
 54b5e601d934c2352228ccffc3df288a, 2013-12-29, Kennedy Space Center| Florida| US, OLYMPUS E-PL5, 1920x1080, F8.0, 1/250s, 200, 44mm
 573b6e26e9bbf6091268816ddb0f4f74, 2013-12-20, Madison| Wisconsin| US, OLYMPUS E-PL5, 1920x1080, F3.5, 1/80s, 400, 28mm
 57f177d34034a80e45f0267caa42722d, 2006-07-23, Tianlongyunku Cave| Hubei| CN, Panasonic DMC-LX1, 1920x1080, F2.8, 1/15s, 200, 28mm
+5896d5d3a30a86a329685fa0dc64fbfe, 2014-03-19, Battery Park NYC | New York| US, OLYMPUS E-PL5, 1920x1080, F5.6, 1/100s, 200, 84mm
 5aeb5a488454edfbacba64a1576ba482, 2013-12-04, Madison| Wisconsin| US, Motorola XT1058, 1920x1080, F2.4, 1/529s, 160, 30mm
+643fd10e6a63ff1085e50b77f16b13b1, 2014-01-15, Madison| Wisconsin| US, OLYMPUS E-PL5, 1920x1080, F1.7, 1/8s, 200, 40mm
 66121fbede10cb759822fb7c0c91d814, 2012-07-25, Huazhong U. of Sci. & Tech.| Hubei| CN, Panasonic DMC-LX1, 1920x1080, F4.9, 1/60s, 100, 136mm
 66da4ca1635419c8aa9a3b16a81b7671, 2009-08-17, Jiuzhaigou Valley| Sichuan| CN, Panasonic DMC-LX1, 1920x1080, F4.5, 1/400s, 200, 28mm
 6b139b8c76fc57dca0679d6dbde7f74c, 2012-03-23, Wuhan U.| Hubei| CN, Panasonic DMC-LX1, 1920x1080, F4.0, 1/125s, 100, 28mm
@@ -78,6 +80,7 @@ src_md5, date, place, camera_model, resolution, aperture, shutter, iso_speed, 35
 8b6dd1be414c3851fd0a0c452ba2ae94, 2008-08-06, Mountain Bodao| Hubei| CN, Panasonic DMC-LX1, 1920x1080, F8.0, 1/2000s, 400, 28mm
 8c6bb835efb999592b2ea95baa3ef66b, 2011-07-28, Venice Beach| CA| US, Panasonic DMC-LX1, 1920x1080, F8.0, 1/1000s, 200, 140mm
 8c6e18ef9eda35ac665282e580192090, 2009-03-21, Huazhong Agricultural U.| Hubei| CN, Panasonic DMC-LX1, 1600x900, F5.6, 1/640s, 100, 28mm
+91310e51b80736bdfe7200419ad18b6c, 2014-03-19, NYC Subway Stations| New York| US, Motorola XT1058, 1920x1080, F2.4, 1/38s, 500, 30mm
 93737322d03772b33dc79a55077f2bd2, 2013-04-06, Liangzi Island| Hubei| CN, Canon PowerShot S100V, 1920x1080, F5.9, 1/160s, 80, 120mm
 96050c44526cb4ea11fcba16de09efd0, 2013-12-30, Disneyland| Florida| US, OLYMPUS E-PL5, 1920x1080, F4.5, 1/80, 2000, 44mms
 9657af81e7f71ff557c14ceec599342f, 2008-01-09, Huazhong Agricultural U.| Hubei| CN, Panasonic DMC-LX1, 1920x1080, F4.9, 1/30s, 80, 128mm
@@ -96,6 +99,8 @@ ac88b8196b3c59b4321f045240e371b5, 2012-10-25, Cat's Eye Pizza| Hubei| CN, Sony S
 adbe568dc8d4a62e8867c880fcd4eac5, 2012-11-04, Huazhong U. of Sci. & Tech.| Hubei| CN, Panasonic DMC-LX1, 1920x1080, F8.0, 1/160s, 80, 136mm
 adc33ea562a4e1fb3b76a34f98254e44, 2012-03-23, Huazhong U. of Sci. & Tech.| Hubei| CN, Panasonic DMC-LX1, 1920x1080, F8.0, 1/30s, 100, 136mm
 ae4569dafd70552d8ae726cda95e9f11, 2013-01-24, Huazhong U. of Sci. & Tech.| Hubei| CN, Panasonic DMC-LX1, 1920x1080, F4.5, 1/400s, 80, 68mm
+af035cfcb2874c3115cfd07d1ce8b871, 2014-01-16, Madison| Wisconsin| US, OLYMPUS E-PL5, 1920x1080, F1.7, 1/3200s, 200, 40mm
+b14b427fc356e1fcbfc5188d6de06313, 2014-03-18, Top of the Rock NYC| New York| US, OLYMPUS E-PL5, 1920x1080, F3.5, 1/20s, 800, 28mm
 b402126e549c3d4b21cb7a8358ecdf2a, 2013-08-17, Flight AA 186, Panasonic DMC-LX1, 1920x1080, F3.2, 1/100s, 80, 28mm
 b867011e4c86510463cc455650c3f8ad, 2013-01-20, Huazhong Agricultural U.| Hubei| CN, Sony ST25i, 1920x1080, F2.6, 1/333s, 80, 34mm
 b8ebe39fe341631ee4aacba2e2ec690f, 2009-08-17, Jiuzhaigou Valley| Sichuan| CN, Panasonic DMC-LX1, 1920x1080, F4.0, 1/100s, 200, 28mm
@@ -108,6 +113,7 @@ c5c86c633923376472ac13581f3d9ee3, 2011-06-24, , GIMP, 1366x768, , , ,
 c745a4c27d9d7fad9270f3daea5bd598, 2013-08-17, Flight AA 186, Panasonic DMC-LX1, 1920x1080, F3.6, 1/25, 80, 45mm
 c7988fbf98baec796eb5d73d5412e9f8, 2013-03-02, Huazhong Agricultural U.| Hubei| CN, Canon PowerShot S100V, 1920x1080, F4.0, 1/50s, 80, 57mm
 c8d49318988af3c9b644f77e0c637b4b, 2013-03-08, Huazhong Agricultural U.| Hubei| CN, Canon PowerShot S100V, 1920x1080, F4.5, 1/1600s, 200, 66mm
+ca9dc43cce3e65fee3a132f616d26d21, 2014-02-08, Madison| Wisconsin| US, OLYMPUS E-PL5, 1920x1080, F1.7, 1/2500s, 200, 40mm
 cb96737bd28e2b39472130bab6730486, 2012-11-17, Huazhong Agricultural U.| Hubei| CN, Canon PowerShot S100V, 1920x1080, F4.0, 1/80s, 400, 24mm
 d14d023866c68d55f6ae4830231a72b9, 2012-04-18, Huazhong U. of Sci. & Tech.| Hubei| CN, Panasonic DMC-LX1, 1920x1080, F4.9, 1/30s, 100, 136mm
 d68fd786d378ff9b4194121bf729f4fe, 2013-11-28, Beloit| Wisconsin| US, Motorola XT1058, 1920x1080, F2.4, 1/59s, 160, 30mm
@@ -121,6 +127,7 @@ e3bec9563991e8584d78b8879cb1a930, 2012-12-19, Huazhong U. of Sci. & Tech.| Hubei
 e4fdf2bffc4138fec55916014e163df0, 2013-04-06, Ezhou| Hubei| CN, Canon PowerShot S100V, 1920x1080, F5.9, 1/10s, 80, 120mm
 e566020f5c966d14c593533b85731da4, 2011-03-27, Huazhong Agricultural U.| Hubei| CN, Panasonic DMC-LX1, 1920x1080, F5.6, 1/500s, 100, 28mm
 e7329d7051aadc6176ec1d22e35bf603, 2012-11-17, Huazhong Agricultural U.| Hubei| CN, Canon PowerShot S100V, 1920x1080, F4.0, 1/500s, 400, 24mm
+e7cc5350548cdd35fce4134375cac2b6, 2014-01-31, UW-Madison| Wisconsin| US, OLYMPUS E-PL5, 1920x1080, F4.0, 1/100s, 200, 40mm
 e91cbc91b9db7c9552b4ef2334a1c58b, 2011-08-10, Golden Gate Bridge| California| US, Panasonic DMC-LX1, 1920x1080, F5.6, 1/800s, 200, 28mm
 eaf589b003089ceb426e012ecd70971a, 2013-06-11, Tangxun Lake| Hubei| CN, Sony ST25i, 1920x1080, F2.6, 1/1000s, 80, 34mm
 ef0200756a8f97695e46467c591b3de4, 2009-08-17, Jiuzhaigou Valley| Sichuan| CN, Panasonic DMC-LX1, 1920x1080, F4.0, 1/400s, 200, 28mm
